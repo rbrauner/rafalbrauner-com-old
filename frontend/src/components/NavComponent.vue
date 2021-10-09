@@ -56,8 +56,8 @@
                     >
                 </li>
                 <li class="nav-item">
-                    <router-link to="/nagrody" class="nav-link"
-                    >Nagrody
+                    <router-link to="/nagrody-i-certyfikaty" class="nav-link"
+                    >Nagrody i certyfikaty
                     </router-link
                     >
                 </li>

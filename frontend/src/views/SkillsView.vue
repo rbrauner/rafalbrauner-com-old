@@ -28,7 +28,7 @@
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    podstawy PostgreSQL
+                    podstawy PostgreSQL, SQLite
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
