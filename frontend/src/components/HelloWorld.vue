@@ -3,10 +3,10 @@
         <h1>{{ msg }}</h1>
         <p>
             For a guide and recipes on how to configure / customize this
-            project,<br />
+            project,<br/>
             check out the
             <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-                >vue-cli documentation</a
+            >vue-cli documentation</a
             >.
         </p>
         <h3>Installed CLI Plugins</h3>
@@ -16,7 +16,7 @@
                     href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
                     target="_blank"
                     rel="noopener"
-                    >babel</a
+                >babel</a
                 >
             </li>
             <li>
@@ -24,7 +24,7 @@
                     href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
                     target="_blank"
                     rel="noopener"
-                    >pwa</a
+                >pwa</a
                 >
             </li>
             <li>
@@ -32,7 +32,7 @@
                     href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
                     target="_blank"
                     rel="noopener"
-                    >router</a
+                >router</a
                 >
             </li>
             <li>
@@ -40,7 +40,7 @@
                     href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex"
                     target="_blank"
                     rel="noopener"
-                    >vuex</a
+                >vuex</a
                 >
             </li>
             <li>
@@ -48,7 +48,7 @@
                     href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
                     target="_blank"
                     rel="noopener"
-                    >eslint</a
+                >eslint</a
                 >
             </li>
             <li>
@@ -56,7 +56,7 @@
                     href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript"
                     target="_blank"
                     rel="noopener"
-                    >typescript</a
+                >typescript</a
                 >
             </li>
         </ul>
@@ -64,17 +64,17 @@
         <ul>
             <li>
                 <a href="https://vuejs.org" target="_blank" rel="noopener"
-                    >Core Docs</a
+                >Core Docs</a
                 >
             </li>
             <li>
                 <a href="https://forum.vuejs.org" target="_blank" rel="noopener"
-                    >Forum</a
+                >Forum</a
                 >
             </li>
             <li>
                 <a href="https://chat.vuejs.org" target="_blank" rel="noopener"
-                    >Community Chat</a
+                >Community Chat</a
                 >
             </li>
             <li>
@@ -82,12 +82,12 @@
                     href="https://twitter.com/vuejs"
                     target="_blank"
                     rel="noopener"
-                    >Twitter</a
+                >Twitter</a
                 >
             </li>
             <li>
                 <a href="https://news.vuejs.org" target="_blank" rel="noopener"
-                    >News</a
+                >News</a
                 >
             </li>
         </ul>
@@ -98,12 +98,12 @@
                     href="https://router.vuejs.org"
                     target="_blank"
                     rel="noopener"
-                    >vue-router</a
+                >vue-router</a
                 >
             </li>
             <li>
                 <a href="https://vuex.vuejs.org" target="_blank" rel="noopener"
-                    >vuex</a
+                >vuex</a
                 >
             </li>
             <li>
@@ -111,7 +111,7 @@
                     href="https://github.com/vuejs/vue-devtools#vue-devtools"
                     target="_blank"
                     rel="noopener"
-                    >vue-devtools</a
+                >vue-devtools</a
                 >
             </li>
             <li>
@@ -119,7 +119,7 @@
                     href="https://vue-loader.vuejs.org"
                     target="_blank"
                     rel="noopener"
-                    >vue-loader</a
+                >vue-loader</a
                 >
             </li>
             <li>
@@ -127,7 +127,7 @@
                     href="https://github.com/vuejs/awesome-vue"
                     target="_blank"
                     rel="noopener"
-                    >awesome-vue</a
+                >awesome-vue</a
                 >
             </li>
         </ul>
@@ -135,7 +135,7 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import {Options, Vue} from "vue-class-component";
 
 @Options({
     props: {
@@ -152,14 +152,17 @@ export default class HelloWorld extends Vue {
 h3 {
     margin: 40px 0 0;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
 }
+
 li {
     display: inline-block;
     margin: 0 10px;
 }
+
 a {
     color: #42b983;
 }
