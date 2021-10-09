@@ -1,65 +1,109 @@
 <template>
     <section class="resume-section" id="skills">
         <div class="resume-section-content">
-            <h2 class="mb-5">Skills</h2>
+            <h2 class="mb-5">Umiejętności</h2>
             <div class="subheading mb-3">
-                Programming Languages & Tools
+                Języki
             </div>
-            <ul class="list-inline dev-icons">
-                <li class="list-inline-item">
-                    <i class="fab fa-html5"></i>
+            <ul class="fa-ul">
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    PHP
                 </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-css3-alt"></i>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    podstawy Java
                 </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-js-square"></i>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    podstawy Python
                 </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-angular"></i>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    podstawy C++
                 </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-react"></i>
-                </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-node-js"></i>
-                </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-sass"></i>
-                </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-less"></i>
-                </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-wordpress"></i>
-                </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-gulp"></i>
-                </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-grunt"></i>
-                </li>
-                <li class="list-inline-item">
-                    <i class="fab fa-npm"></i>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    podstawy HTML, CSS, SCSS, JS
                 </li>
             </ul>
-            <div class="subheading mb-3">Workflow</div>
-            <ul class="fa-ul mb-0">
+            <div class="subheading mb-3">
+                Frameworki
+            </div>
+            <ul class="fa-ul">
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Mobile-First, Responsive Design
+                    Symfony 5
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Cross Browser Testing & Debugging
+                    Zend Framework 3
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Cross Functional Teams
+                    Spring
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Agile Development & Scrum
+                    Hibernate
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Vue.js
+                </li>
+            </ul>
+            <div class="subheading mb-3">
+                Biblioteki
+            </div>
+            <ul class="fa-ul">
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Doctrine
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    JQuery
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Axios
+                </li>
+            </ul>
+            <div class="subheading mb-3">
+                Narzędzia
+            </div>
+            <ul class="fa-ul">
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Visual Sudio Code
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Docker
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Git
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Git Flow
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Composer
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Maven
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Webpack
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Gulp
                 </li>
             </ul>
         </div>
