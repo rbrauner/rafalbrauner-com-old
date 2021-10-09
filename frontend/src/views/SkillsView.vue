@@ -70,6 +70,10 @@
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Bootstrap
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
                     JQuery
                 </li>
                 <li>
