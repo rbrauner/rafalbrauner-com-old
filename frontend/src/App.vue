@@ -17,6 +17,21 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 // theme
 @import "./assets/theme/app.scss";
+
+// app
+$appColor: #bd5d38;
+
+.bg-primary {
+    background-color: $appColor !important;
+}
+
+.text-primary {
+    color: $appColor !important;
+}
+
+a {
+    color: $appColor;
+}
 </style>
 
 <script>
