@@ -26,37 +26,52 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <router-link to="/o-mnie" class="nav-link"
+                    <router-link to="/o-mnie" class="nav-link" @click="navLink"
                     >O mnie
                     </router-link
                     >
                 </li>
                 <li class="nav-item">
-                    <router-link to="/doswiadczenie" class="nav-link"
+                    <router-link
+                        to="/doswiadczenie"
+                        class="nav-link"
+                        @click="navLink"
                     >Doświadczenie
                     </router-link
                     >
                 </li>
                 <li class="nav-item">
-                    <router-link to="/edukacja" class="nav-link"
+                    <router-link
+                        to="/edukacja"
+                        class="nav-link"
+                        @click="navLink"
                     >Edukacja
                     </router-link
                     >
                 </li>
                 <li class="nav-item">
-                    <router-link to="/umiejetnosci" class="nav-link"
+                    <router-link
+                        to="/umiejetnosci"
+                        class="nav-link"
+                        @click="navLink"
                     >Umiejętności
                     </router-link
                     >
                 </li>
                 <li class="nav-item">
-                    <router-link to="/zainteresowania" class="nav-link"
+                    <router-link
+                        to="/zainteresowania"
+                        class="nav-link"
+                        @click="navLink"
                     >Zainteresowania
                     </router-link
                     >
                 </li>
                 <li class="nav-item">
-                    <router-link to="/nagrody-i-certyfikaty" class="nav-link"
+                    <router-link
+                        to="/nagrody-i-certyfikaty"
+                        class="nav-link"
+                        @click="navLink"
                     >Nagrody i certyfikaty
                     </router-link
                     >
@@ -68,6 +83,15 @@
 
 <script>
 export default {
-    name: "NavComponent"
+    name: "NavComponent",
+    methods: {
+        navLink() {
+            var myCollapse = document.querySelector(
+                'button[data-bs-target="#navbarSupportedContent"]'
+            );
+            myCollapse.toggle();
+            this.$emit("click");
+        }
+    }
 };
 </script>
