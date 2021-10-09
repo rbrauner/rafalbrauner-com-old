@@ -39,12 +39,12 @@
 <script scoped>
 export default {
     name: "NavComponent",
-    data: function() {
+    data: function () {
         return {
             profile: {
                 name: "Rafał Brauner",
                 image: require("../assets/img/profile.png"),
-                url: "/"
+                url: "/",
             },
             menu: [
                 { url: "/o-mnie", label: "O mnie" },
@@ -54,27 +54,27 @@ export default {
                 { url: "/zainteresowania", label: "Zainteresowania" },
                 {
                     url: "/nagrody-i-certyfikaty",
-                    label: "Nagrody i certyfikaty"
-                }
-            ]
+                    label: "Nagrody i certyfikaty",
+                },
+            ],
         };
     },
     computed: {
-        cProfileName: function() {
+        cProfileName: function () {
             return this.profile.name;
         },
-        cProfileImage: function() {
+        cProfileImage: function () {
             return this.profile.image;
         },
-        cProfileUrl: function() {
+        cProfileUrl: function () {
             return this.profile.url;
         },
-        cMenu: function() {
+        cMenu: function () {
             return this.menu;
-        }
+        },
     },
     methods: {
-        navLink: function(e) {
+        navLink: function (e) {
             let navbarCollapse = e.target.closest(".navbar-collapse");
             let navbarToggler = navbarCollapse.previousSibling;
 
@@ -82,7 +82,7 @@ export default {
                 let event = new CustomEvent("click");
                 navbarToggler.dispatchEvent(event);
             }
-        }
-    }
+        },
+    },
 };
 </script>

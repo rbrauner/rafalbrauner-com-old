@@ -1,20 +1,13 @@
 <template>
     <div class="cookie-banner p-5" :class="cCookieBanner">
-        <div class="d-flex flex-wrap align-items-center">
+        <div class="row align-items-center">
             <div class="col-12 col-md-9 mb-4 mb-md-0 pr-md-5 text-right">
-                <div class="row">
-                    <div class="text">{{ cookies.text }}</div>
-                </div>
+                <div class="text">{{ cookies.text }}</div>
             </div>
             <div class="col-12 col-md-3 pr-md-5">
-                <div class="row">
-                    <button
-                        class="btn btn-primary w-auto"
-                        @click="acceptCookies"
-                    >
-                        {{ cookies.button }}
-                    </button>
-                </div>
+                <button class="btn btn-primary w-auto" @click="acceptCookies">
+                    {{ cookies.button }}
+                </button>
             </div>
         </div>
     </div>
