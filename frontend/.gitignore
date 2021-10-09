@@ -190,7 +190,7 @@ octave-workspace
 *.psm
 *.cmp
 *.jpg
-*.html
+#*.html
 *.bsf
 
 # ignore simulation output of ModelSim
