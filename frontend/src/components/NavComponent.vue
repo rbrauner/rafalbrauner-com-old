@@ -13,84 +13,73 @@
             /></span>
         </router-link>
         <button
+            :class="{ navbarButtonClass }"
+            :aria-expanded="{ navbarButtonAriaExpanded }"
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
-            aria-expanded="false"
             aria-controls="navbarSupportedContent"
             aria-label="Przełącz nawigację"
         >
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+            :class="{ navbarCollapseClass }"
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+        >
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <router-link to="/o-mnie" class="nav-link" @click="navLink"
-                    >O mnie
-                    </router-link
-                    >
+                    <router-link to="/o-mnie" class="nav-link"
+                    ><span @click="navLink">O mnie</span>
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link
-                        to="/doswiadczenie"
-                        class="nav-link"
-                        @click="navLink"
-                    >Doświadczenie
-                    </router-link
-                    >
+                    <router-link to="/doswiadczenie" class="nav-link"
+                    ><span @click="navLink">Doświadczenie</span>
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link
-                        to="/edukacja"
-                        class="nav-link"
-                        @click="navLink"
-                    >Edukacja
-                    </router-link
-                    >
+                    <router-link to="/edukacja" class="nav-link"
+                    ><span @click="navLink">Edukacja</span>
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link
-                        to="/umiejetnosci"
-                        class="nav-link"
-                        @click="navLink"
-                    >Umiejętności
-                    </router-link
-                    >
+                    <router-link to="/umiejetnosci" class="nav-link"
+                    ><span @click="navLink">Umiejętności</span>
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link
-                        to="/zainteresowania"
-                        class="nav-link"
-                        @click="navLink"
-                    >Zainteresowania
-                    </router-link
-                    >
+                    <router-link to="/zainteresowania" class="nav-link"
+                    ><span @click="navLink"> Zainteresowania</span>
+                    </router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link
-                        to="/nagrody-i-certyfikaty"
-                        class="nav-link"
-                        @click="navLink"
-                    >Nagrody i certyfikaty
-                    </router-link
-                    >
+                    <router-link to="/nagrody-i-certyfikaty" class="nav-link"
+                    ><span @click="navLink">Nagrody i certyfikaty</span>
+                    </router-link>
                 </li>
             </ul>
         </div>
     </nav>
 </template>
 
-<script>
+<script scoped>
 export default {
     name: "NavComponent",
+    data: function () {
+        return {
+            navbarButtonClass: "collapsed",
+            navbarButtonAriaExpanded: false,
+            navbarCollapseClass: ""
+        };
+    },
     methods: {
         navLink() {
-            var myCollapse = document.querySelector(
-                'button[data-bs-target="#navbarSupportedContent"]'
-            );
-            myCollapse.toggle();
-            this.$emit("click");
+            this.navbarButtonClass = "collapsed";
+            this.navbarButtonAriaExpanded = false;
+            this.navbarCollapseClass.replace("show", "");
         }
     }
 };
