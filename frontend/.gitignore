@@ -586,7 +586,7 @@ $RECYCLE.BIN/
 *.webp
 
 # Portable Network Graphics
-*.png
+#*.png
 
 # Animated Portable Network Graphics
 *.apng
@@ -599,7 +599,7 @@ $RECYCLE.BIN/
 *.tif
 
 # Scalable Vector Graphics
-*.svg
+#*.svg
 *.svgz
 
 # Portable Document Format
