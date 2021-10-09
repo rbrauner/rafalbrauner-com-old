@@ -3,7 +3,7 @@
         <div class="container-fluid p-0">
             <router-view v-slot="{ Component }">
                 <transition name="fade" mode="out-in">
-                    <component :is="Component"/>
+                    <component :is="Component" />
                 </transition>
             </router-view>
         </div>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-    name: "MainComponent"
+    name: "MainComponent",
 };
 </script>
 

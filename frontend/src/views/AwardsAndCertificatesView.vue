@@ -7,6 +7,20 @@
                     <span class="fa-li"
                         ><i class="fas fa-trophy text-warning"></i
                     ></span>
+                    Szkolenie pt. "Specjalność Programista: Podstawy Javy" -
+                    Akademia Kodu (10.05.2020)
+                </li>
+                <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-trophy text-warning"></i
+                    ></span>
+                    Szkolenie pt. "Specjalność Programista: Podstawy Pythona" -
+                    Akademia Kodu (18.04.2020)
+                </li>
+                <li>
+                    <span class="fa-li"
+                        ><i class="fas fa-trophy text-warning"></i
+                    ></span>
                     Szkolenie pt. "Aplikacje webowe" - BlueSoft Rybnik
                     (13.09.2017)
                 </li>
@@ -20,3 +34,12 @@ export default {
     name: "AwardsAndCertificatesView",
 };
 </script>
+
+<style scoped lang="scss">
+ul {
+    li {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+</style>

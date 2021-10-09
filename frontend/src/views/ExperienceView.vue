@@ -32,7 +32,7 @@
                 </div>
                 <div class="flex-shrink-0">
                     <span class="text-primary"
-                        >Cerwiec 2018 - Październik 2019</span
+                        >Czerwiec 2018 - Październik 2019</span
                     >
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import {createRouter, createWebHistory, RouteRecordRaw} from "vue-router";
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import IndexView from "@/views/IndexView.vue";
 import AboutView from "@/views/AboutView.vue";
 import ExperienceView from "@/views/ExperienceView.vue";
@@ -16,33 +16,33 @@ const routes: Array<RouteRecordRaw> = [
     {
         path: "/o-mnie",
         name: "About",
-        component: AboutView
+        component: AboutView,
     },
     {
         path: "/doswiadczenie",
         name: "Experience",
-        component: ExperienceView
+        component: ExperienceView,
     },
     {
         path: "/edukacja",
         name: "Education",
-        component: EducationView
+        component: EducationView,
     },
     {
         path: "/umiejetnosci",
         name: "Skills",
-        component: SkillsView
+        component: SkillsView,
     },
     {
         path: "/zainteresowania",
         name: "Interests",
-        component: InterestsView
+        component: InterestsView,
     },
     {
         path: "/nagrody-i-certyfikaty",
         name: "AwardsAndCertificates",
-        component: AwardsAndCertificatesView
-    }
+        component: AwardsAndCertificatesView,
+    },
 ];
 
 const router = createRouter({
