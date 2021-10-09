@@ -8,7 +8,7 @@
             <span class="d-none d-lg-block"
             ><img
                 class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                :src="cProfileImage"
+                src="../assets/img/profile.png"
                 alt="profile.png"
             /></span>
         </router-link>
@@ -25,8 +25,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li v-for="item in menu" :key="item.url">
-                    <router-link :to="item.url" class="nav-link"
-                    >{{ item.label }}
+                    <router-link :to="item.url" class="nav-link">
+                        <span @click="navLink">
+                            {{ item.label }}
+                        </span>
                     </router-link>
                 </li>
             </ul>
@@ -41,7 +43,6 @@ export default {
         return {
             profile: {
                 name: "Rafał Brauner",
-                image: "../assets/img/profile.png",
                 url: "/"
             },
             menu: [
@@ -69,6 +70,17 @@ export default {
         },
         cMenu: function () {
             return this.menu;
+        }
+    },
+    methods: {
+        navLink: function (e) {
+            let navbarCollapse = e.target.closest(".navbar-collapse");
+            let navbarToggler = navbarCollapse.previousSibling;
+
+            if (window.getComputedStyle(navbarToggler).display !== "none") {
+                let event = new CustomEvent("click");
+                navbarToggler.dispatchEvent(event);
+            }
         }
     }
 };
