@@ -1,7 +1,7 @@
 <template>
     <section class="resume-section" id="experience">
         <div class="resume-section-content">
-            <h2 class="mb-5">Umiejętności</h2>
+            <h2 class="mb-5">Doświadczenie</h2>
             <div
                 class="d-flex flex-column flex-md-row justify-content-between mb-5"
             >
