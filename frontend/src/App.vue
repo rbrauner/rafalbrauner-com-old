@@ -2,6 +2,7 @@
     <header-component />
     <nav-component />
     <main-component />
+    <cookies-banner-component />
     <footer-component />
 </template>
 
@@ -56,6 +57,7 @@ import "bootstrap";
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import NavComponent from "@/components/NavComponent.vue";
 import MainComponent from "@/components/MainComponent.vue";
+import CookiesBannerComponent from "@/components/CookiesBannerComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
 
 export default {
@@ -64,6 +66,7 @@ export default {
         HeaderComponent,
         NavComponent,
         MainComponent,
+        CookiesBannerComponent,
         FooterComponent,
     },
 };
