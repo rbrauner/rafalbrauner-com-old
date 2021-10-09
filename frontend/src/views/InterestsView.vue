@@ -1,18 +1,19 @@
 <template>
     <section class="resume-section" id="interests">
         <div class="resume-section-content">
-            <h2 class="mb-5">Interests</h2>
+            <h2 class="mb-5">Zainteresowania</h2>
             <p>
-                Apart from being a web developer, I enjoy most of my time being
-                outdoors. In the winter, I am an avid skier and novice ice
-                climber. During the warmer months here in Colorado, I enjoy
-                mountain biking, free climbing, and kayaking.
+                Najbardziej interesuję się backend web developmentem,
+                projektowaniem struktury aplikacji oraz bazy danych, a także
+                poszerzaniem wiedzy z zakresu utrzymywania czystości kodu, czy
+                też cyberbezpieczeństwem i nowości technologicznych (nie tylko
+                programistycznych).
             </p>
             <p class="mb-0">
-                When forced indoors, I follow a number of sci-fi and fantasy
-                genre movies and television shows, I am an aspiring chef, and I
-                spend a large amount of my free time exploring the latest
-                technology advancements in the front-end web development world.
+                Kiedy nie programuję lubię wyruszać na długie, pełne przygód
+                wycieczki rowerowe, jak i przemierzać górskie szlaki, a zimą
+                szosować po stokach. Po za tym lubię obejrzeć jakiś film/serial,
+                albo przeczytać dobrą książkę fantasy.
             </p>
         </div>
     </section>
