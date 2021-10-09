@@ -1,8 +1,8 @@
 <template>
-    <header-component/>
-    <nav-component/>
-    <main-component/>
-    <footer-component/>
+    <header-component />
+    <nav-component />
+    <main-component />
+    <footer-component />
 </template>
 
 <style lang="scss">
@@ -20,6 +20,10 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 // app
 $appColor: #bd5d38;
+
+body {
+    font-family: "Ubuntu";
+}
 
 .bg-primary {
     background-color: $appColor !important;
@@ -42,7 +46,6 @@ a {
         }
     }
 }
-
 </style>
 
 <script>
@@ -61,7 +64,7 @@ export default {
         HeaderComponent,
         NavComponent,
         MainComponent,
-        FooterComponent
-    }
+        FooterComponent,
+    },
 };
 </script>

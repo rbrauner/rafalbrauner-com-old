@@ -903,6 +903,11 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
+"@fontsource/ubuntu@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/ubuntu/-/ubuntu-4.5.0.tgz#13700f2e34b8dead9c935850e5ef26add9e70cc9"
+  integrity sha512-PytR+FgXPPK+UNrLNhYucrNXewS9b4YOJpS2oYw4dfJq+5iyG8iV6CfwToy2UOVSOmBSBhCQ6mJa5Z6BqrGqMw==
+
 "@fortawesome/fontawesome-free@^5.15.4":
   version "5.15.4"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.4.tgz#ecda5712b61ac852c760d8b3c79c96adca5554e5"
