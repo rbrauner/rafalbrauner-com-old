@@ -13,8 +13,6 @@
             /></span>
         </router-link>
         <button
-            :class="{ navbarButtonClass }"
-            :aria-expanded="{ navbarButtonAriaExpanded }"
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -24,40 +22,36 @@
         >
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-            :class="{ navbarCollapseClass }"
-            class="collapse navbar-collapse"
-            id="navbarSupportedContent"
-        >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <router-link to="/o-mnie" class="nav-link"
-                    ><span @click="navLink">O mnie</span>
+                    <router-link to="/o-mnie" class="nav-link" @click="klik"
+                    >O mnie
                     </router-link>
                 </li>
                 <li class="nav-item">
                     <router-link to="/doswiadczenie" class="nav-link"
-                    ><span @click="navLink">Doświadczenie</span>
+                    >Doświadczenie
                     </router-link>
                 </li>
                 <li class="nav-item">
                     <router-link to="/edukacja" class="nav-link"
-                    ><span @click="navLink">Edukacja</span>
+                    >Edukacja
                     </router-link>
                 </li>
                 <li class="nav-item">
                     <router-link to="/umiejetnosci" class="nav-link"
-                    ><span @click="navLink">Umiejętności</span>
+                    >Umiejętności
                     </router-link>
                 </li>
                 <li class="nav-item">
                     <router-link to="/zainteresowania" class="nav-link"
-                    ><span @click="navLink"> Zainteresowania</span>
+                    >Zainteresowania
                     </router-link>
                 </li>
                 <li class="nav-item">
                     <router-link to="/nagrody-i-certyfikaty" class="nav-link"
-                    ><span @click="navLink">Nagrody i certyfikaty</span>
+                    >Nagrody i certyfikaty
                     </router-link>
                 </li>
             </ul>
@@ -67,20 +61,6 @@
 
 <script scoped>
 export default {
-    name: "NavComponent",
-    data: function () {
-        return {
-            navbarButtonClass: "collapsed",
-            navbarButtonAriaExpanded: false,
-            navbarCollapseClass: ""
-        };
-    },
-    methods: {
-        navLink() {
-            this.navbarButtonClass = "collapsed";
-            this.navbarButtonAriaExpanded = false;
-            this.navbarCollapseClass.replace("show", "");
-        }
-    }
+    name: "NavComponent"
 };
 </script>
