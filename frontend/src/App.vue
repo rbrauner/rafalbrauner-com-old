@@ -32,6 +32,17 @@ $appColor: #bd5d38;
 a {
     color: $appColor;
 }
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link {
+            &.router-link-active {
+                color: rgba(255, 255, 255, 0.75);
+            }
+        }
+    }
+}
+
 </style>
 
 <script>
