@@ -12,6 +12,10 @@
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
+                    SQL, MySQL
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
                     podstawy Java
                 </li>
                 <li>
@@ -21,6 +25,10 @@
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
                     podstawy C++
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    podstawy PostgreSQL
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -41,15 +49,15 @@
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Spring
+                    podstawy Spring
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Hibernate
+                    podstawy Hibernate
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Vue.js
+                    podstawy Vue.js
                 </li>
             </ul>
             <div class="subheading mb-3">
@@ -67,6 +75,15 @@
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
                     Axios
+                </li>
+            </ul>
+            <div class="subheading mb-3">
+                Inne
+            </div>
+            <ul class="fa-ul">
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Elasticsearch
                 </li>
             </ul>
             <div class="subheading mb-3">
