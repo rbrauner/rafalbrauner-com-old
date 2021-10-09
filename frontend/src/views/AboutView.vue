@@ -8,37 +8,37 @@
             <div class="subheading mb-5">
                 Rybnik, Polska
                 <a href="mailto:rafalbrauner@gmail.com"
-                >rafalbrauner@gmail.com</a
+                    >rafalbrauner@gmail.com</a
                 >
             </div>
             <p class="lead mb-5">
-                Aktualnie uczę mi się języka Java i frameworka Spring, ale
-                jestem otwarty na temat nauki innych technologii.
+                Aktualnie uczę się języka Java i frameworka Spring, ale jestem
+                otwarty na naukę innych technologii.
             </p>
             <div class="social-icons">
                 <a
                     class="social-icon"
                     href="https://www.linkedin.com/in/rbrauner"
                     target="_blank"
-                ><i class="fab fa-linkedin-in"></i
+                    ><i class="fab fa-linkedin-in"></i
                 ></a>
                 <a
                     class="social-icon"
                     href="https://gitlab.com/rbrauner"
                     target="_blank"
-                ><i class="fab fa-gitlab"></i
+                    ><i class="fab fa-gitlab"></i
                 ></a>
                 <a
                     class="social-icon"
                     href="https://github.com/rbrauner"
                     target="_blank"
-                ><i class="fab fa-github"></i
+                    ><i class="fab fa-github"></i
                 ></a>
                 <a
                     class="social-icon"
                     href="https://www.facebook.com/rbrauner98"
                     target="_blank"
-                ><i class="fab fa-facebook-f"></i
+                    ><i class="fab fa-facebook-f"></i
                 ></a>
             </div>
         </div>
@@ -47,6 +47,6 @@
 
 <script>
 export default {
-    name: "AboutView"
+    name: "AboutView",
 };
 </script>

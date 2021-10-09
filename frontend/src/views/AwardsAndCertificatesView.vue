@@ -5,7 +5,7 @@
             <ul class="fa-ul mb-0">
                 <li>
                     <span class="fa-li"
-                    ><i class="fas fa-trophy text-warning"></i
+                        ><i class="fas fa-trophy text-warning"></i
                     ></span>
                     Szkolenie pt. "Aplikacje webowe" - BlueSoft Rybnik
                     (13.09.2017)
@@ -17,6 +17,6 @@
 
 <script>
 export default {
-    name: "AwardsAndCertificatesView"
+    name: "AwardsAndCertificatesView",
 };
 </script>
