@@ -6,10 +6,10 @@
         <router-link :to="cProfileUrl" class="navbar-brand">
             <span class="d-block d-lg-none">{{ cProfileName }}</span>
             <span class="d-none d-lg-block"
-            ><img
-                class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                src="../assets/img/profile.png"
-                alt="profile.png"
+                ><img
+                    class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    :src="cProfileImage"
+                    alt="profile.png"
             /></span>
         </router-link>
         <button
@@ -39,18 +39,19 @@
 <script scoped>
 export default {
     name: "NavComponent",
-    data: function () {
+    data: function() {
         return {
             profile: {
                 name: "Rafał Brauner",
+                image: require("../assets/img/profile.png"),
                 url: "/"
             },
             menu: [
-                {url: "/o-mnie", label: "O mnie"},
-                {url: "/doswiadczenie", label: "Doświadczenie"},
-                {url: "/edukacja", label: "Edukacja"},
-                {url: "/umiejetnosci", label: "Umiejętności"},
-                {url: "/zainteresowania", label: "Zainteresowania"},
+                { url: "/o-mnie", label: "O mnie" },
+                { url: "/doswiadczenie", label: "Doświadczenie" },
+                { url: "/edukacja", label: "Edukacja" },
+                { url: "/umiejetnosci", label: "Umiejętności" },
+                { url: "/zainteresowania", label: "Zainteresowania" },
                 {
                     url: "/nagrody-i-certyfikaty",
                     label: "Nagrody i certyfikaty"
@@ -59,21 +60,21 @@ export default {
         };
     },
     computed: {
-        cProfileName: function () {
+        cProfileName: function() {
             return this.profile.name;
         },
-        cProfileImage: function () {
+        cProfileImage: function() {
             return this.profile.image;
         },
-        cProfileUrl: function () {
+        cProfileUrl: function() {
             return this.profile.url;
         },
-        cMenu: function () {
+        cMenu: function() {
             return this.menu;
         }
     },
     methods: {
-        navLink: function (e) {
+        navLink: function(e) {
             let navbarCollapse = e.target.closest(".navbar-collapse");
             let navbarToggler = navbarCollapse.previousSibling;
 
