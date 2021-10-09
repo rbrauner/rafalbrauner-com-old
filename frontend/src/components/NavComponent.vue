@@ -15,10 +15,10 @@
         <button
             class="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
             aria-expanded="false"
+            aria-controls="navbarSupportedContent"
             aria-label="Przełącz nawigację"
         >
             <span class="navbar-toggler-icon"></span>
