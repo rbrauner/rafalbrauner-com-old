@@ -5,7 +5,7 @@ import ExperienceView from "@/views/ExperienceView.vue";
 import EducationView from "@/views/EducationView.vue";
 import SkillsView from "@/views/SkillsView.vue";
 import InterestsView from "@/views/InterestsView.vue";
-import AwardsView from "@/views/AwardsView.vue";
+import AwardsAndCertificatesView from "@/views/AwardsAndCertificatesView.vue";
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -39,9 +39,9 @@ const routes: Array<RouteRecordRaw> = [
         component: InterestsView
     },
     {
-        path: "/nagrody",
-        name: "Awards",
-        component: AwardsView
+        path: "/nagrody-i-certyfikaty",
+        name: "AwardsAndCertificates",
+        component: AwardsAndCertificatesView
     }
 ];
 
