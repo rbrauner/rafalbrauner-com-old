@@ -1,9 +1,14 @@
 <template>
-    <index-component/>
+    <about-view />
 </template>
 
 <script>
+import AboutView from "@/views/AboutView.vue";
+
 export default {
-    name: "IndexComponent"
+    name: "IndexView",
+    components: {
+        AboutView
+    }
 };
 </script>
