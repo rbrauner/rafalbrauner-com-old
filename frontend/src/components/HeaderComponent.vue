@@ -1,9 +1,9 @@
 <template>
-    <index-component/>
+    <header></header>
 </template>
 
 <script>
 export default {
-    name: "IndexComponent"
+    name: "HeaderComponent"
 };
 </script>

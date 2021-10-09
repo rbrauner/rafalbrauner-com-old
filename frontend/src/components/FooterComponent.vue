@@ -1,9 +1,9 @@
 <template>
-    <index-component/>
+    <footer></footer>
 </template>
 
 <script>
 export default {
-    name: "IndexComponent"
+    name: "FooterComponent"
 };
 </script>
