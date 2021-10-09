@@ -14,11 +14,13 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 @import "~@fortawesome/fontawesome-free/scss/regular";
+
+// theme
+@import "./assets/theme/app.scss";
 </style>
 
 <script>
 // libs
-import "bootstrap";
 import "bootstrap";
 
 // components
