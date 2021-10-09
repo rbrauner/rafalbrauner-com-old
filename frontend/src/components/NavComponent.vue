@@ -3,12 +3,12 @@
         class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
         id="sideNav"
     >
-        <router-link to="/" class="navbar-brand">
-            <span class="d-block d-lg-none">Rafał Brauner</span>
+        <router-link :to="cProfileUrl" class="navbar-brand">
+            <span class="d-block d-lg-none">{{ cProfileName }}</span>
             <span class="d-none d-lg-block"
             ><img
                 class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                src="../assets/img/profile.png"
+                :src="cProfileImage"
                 alt="profile.png"
             /></span>
         </router-link>
@@ -24,34 +24,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <router-link to="/o-mnie" class="nav-link" @click="klik"
-                    >O mnie
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link to="/doswiadczenie" class="nav-link"
-                    >Doświadczenie
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link to="/edukacja" class="nav-link"
-                    >Edukacja
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link to="/umiejetnosci" class="nav-link"
-                    >Umiejętności
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link to="/zainteresowania" class="nav-link"
-                    >Zainteresowania
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link to="/nagrody-i-certyfikaty" class="nav-link"
-                    >Nagrody i certyfikaty
+                <li v-for="item in menu" :key="item.url">
+                    <router-link :to="item.url" class="nav-link"
+                    >{{ item.label }}
                     </router-link>
                 </li>
             </ul>
@@ -61,6 +36,40 @@
 
 <script scoped>
 export default {
-    name: "NavComponent"
+    name: "NavComponent",
+    data: function () {
+        return {
+            profile: {
+                name: "Rafał Brauner",
+                image: "../assets/img/profile.png",
+                url: "/"
+            },
+            menu: [
+                {url: "/o-mnie", label: "O mnie"},
+                {url: "/doswiadczenie", label: "Doświadczenie"},
+                {url: "/edukacja", label: "Edukacja"},
+                {url: "/umiejetnosci", label: "Umiejętności"},
+                {url: "/zainteresowania", label: "Zainteresowania"},
+                {
+                    url: "/nagrody-i-certyfikaty",
+                    label: "Nagrody i certyfikaty"
+                }
+            ]
+        };
+    },
+    computed: {
+        cProfileName: function () {
+            return this.profile.name;
+        },
+        cProfileImage: function () {
+            return this.profile.image;
+        },
+        cProfileUrl: function () {
+            return this.profile.url;
+        },
+        cMenu: function () {
+            return this.menu;
+        }
+    }
 };
 </script>
