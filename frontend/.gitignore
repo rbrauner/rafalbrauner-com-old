@@ -613,7 +613,7 @@ $RECYCLE.BIN/
 *.dib
 
 # ICO
-*.ico
+#*.ico
 
 # 3D Images
 *.3dm
