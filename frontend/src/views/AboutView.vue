@@ -12,10 +12,8 @@
                 >
             </div>
             <p class="lead mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                accusamus consequuntur, nihil inventore facilis fugiat unde in,
-                repellat vero, rerum voluptates delectus possimus dolorum eius!
-                Necessitatibus, recusandae optio? Voluptatem, eaque!
+                Aktualnie uczę mi się języka Java i frameworka Spring, ale
+                jestem otwarty na temat nauki innych technologii.
             </p>
             <div class="social-icons">
                 <a
