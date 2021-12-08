@@ -2,6 +2,7 @@
     <section class="resume-section" id="about">
         <div class="resume-section-content">
             <h1 class="mb-0">
+                {{ $t("message") }}
                 Rafał
                 <span class="text-primary">Brauner</span>
             </h1>

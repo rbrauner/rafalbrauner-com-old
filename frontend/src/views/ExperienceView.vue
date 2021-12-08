@@ -3,12 +3,7 @@
         <div class="resume-section-content">
             <h2 class="mb-5">Doświadczenie</h2>
             <div
-                class="
-                    d-flex
-                    flex-column flex-md-row
-                    justify-content-between
-                    mb-5
-                "
+                class="d-flex flex-column flex-md-row justify-content-between mb-5"
             >
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Backend Developer</h3>
@@ -19,12 +14,7 @@
                 </div>
             </div>
             <div
-                class="
-                    d-flex
-                    flex-column flex-md-row
-                    justify-content-between
-                    mb-5
-                "
+                class="d-flex flex-column flex-md-row justify-content-between mb-5"
             >
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Junior Backend Developer</h3>
