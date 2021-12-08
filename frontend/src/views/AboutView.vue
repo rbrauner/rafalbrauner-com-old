@@ -18,9 +18,9 @@
             <div class="social-icons">
                 <a
                     class="social-icon"
-                    href="https://www.linkedin.com/in/rbrauner"
+                    href="https://github.com/rbrauner"
                     target="_blank"
-                    ><i class="fab fa-linkedin-in"></i
+                    ><i class="fab fa-github"></i
                 ></a>
                 <a
                     class="social-icon"
@@ -30,15 +30,15 @@
                 ></a>
                 <a
                     class="social-icon"
-                    href="https://github.com/rbrauner"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                ></a>
-                <a
-                    class="social-icon"
                     href="https://www.facebook.com/rbrauner98"
                     target="_blank"
                     ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                    class="social-icon"
+                    href="https://www.linkedin.com/in/rbrauner"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
                 ></a>
             </div>
         </div>
