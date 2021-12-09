@@ -1,28 +1,25 @@
 <template>
     <section class="resume-section" id="awards-and-certificates">
         <div class="resume-section-content">
-            <h2 class="mb-5">Nagrody i certyfikaty</h2>
+            <h2 class="mb-5">{{ $t("view.awards_and_certificates.title") }}</h2>
             <ul class="fa-ul mb-0">
                 <li>
                     <span class="fa-li"
                         ><i class="fas fa-trophy text-warning"></i
                     ></span>
-                    Szkolenie pt. "Specjalność Programista: Podstawy Javy" -
-                    Akademia Kodu (10.05.2020)
+                    {{ $t("view.awards_and_certificates.first") }}
                 </li>
                 <li>
                     <span class="fa-li"
                         ><i class="fas fa-trophy text-warning"></i
                     ></span>
-                    Szkolenie pt. "Specjalność Programista: Podstawy Pythona" -
-                    Akademia Kodu (18.04.2020)
+                    {{ $t("view.awards_and_certificates.second") }}
                 </li>
                 <li>
                     <span class="fa-li"
                         ><i class="fas fa-trophy text-warning"></i
                     ></span>
-                    Szkolenie pt. "Aplikacje webowe" - BlueSoft Rybnik
-                    (13.09.2017)
+                    {{ $t("view.awards_and_certificates.third") }}
                 </li>
             </ul>
         </div>

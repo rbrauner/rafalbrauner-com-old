@@ -4,7 +4,9 @@
         id="sideNav"
     >
         <router-link :to="cProfileUrl" class="navbar-brand">
-            <span class="d-block d-lg-none">{{ cProfileName }}</span>
+            <span class="d-block d-lg-none">{{
+                $t("component.nav.profile.name")
+            }}</span>
             <span class="d-none d-lg-block"
                 ><img
                     class="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -18,7 +20,7 @@
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
-            aria-label="Przełącz nawigację"
+            :aria-label="$t('component.nav.toggle_navigation')"
         >
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,27 +44,40 @@ export default {
     data: function () {
         return {
             profile: {
-                name: "Rafał Brauner",
                 image: require("../assets/img/profile.png"),
                 url: "/",
             },
             menu: [
-                { url: "/o-mnie", label: "O mnie" },
-                { url: "/doswiadczenie", label: "Doświadczenie" },
-                { url: "/edukacja", label: "Edukacja" },
-                { url: "/umiejetnosci", label: "Umiejętności" },
-                { url: "/zainteresowania", label: "Zainteresowania" },
+                {
+                    url: "/o-mnie",
+                    label: this.$t("component.nav.menu.about"),
+                },
+                {
+                    url: "/doswiadczenie",
+                    label: this.$t("component.nav.menu.experience"),
+                },
+                {
+                    url: "/edukacja",
+                    label: this.$t("component.nav.menu.education"),
+                },
+                {
+                    url: "/umiejetnosci",
+                    label: this.$t("component.nav.menu.skills"),
+                },
+                {
+                    url: "/zainteresowania",
+                    label: this.$t("component.nav.menu.interests"),
+                },
                 {
                     url: "/nagrody-i-certyfikaty",
-                    label: "Nagrody i certyfikaty",
+                    label: this.$t(
+                        "component.nav.menu.awards_and_certificates"
+                    ),
                 },
             ],
         };
     },
     computed: {
-        cProfileName: function () {
-            return this.profile.name;
-        },
         cProfileImage: function () {
             return this.profile.image;
         },

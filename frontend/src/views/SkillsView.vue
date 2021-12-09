@@ -1,174 +1,174 @@
 <template>
     <section class="resume-section" id="skills">
         <div class="resume-section-content">
-            <h2 class="mb-5">Umiejętności</h2>
+            <h2 class="mb-5">{{ $t("view.skills.title") }}</h2>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <div class="subheading mb-3">Języki</div>
+                    <div class="subheading mb-3">{{ $t("view.skills.languages.title") }}</div>
                     <ul class="fa-ul">
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            PHP
+                            {{ $t("view.skills.languages.php") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            SQL, MySQL
+                            {{ $t("view.skills.languages.sql_mysql") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            podstawy Java
+                            {{ $t("view.skills.languages.java") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            podstawy Python
+                            {{ $t("view.skills.languages.python") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            podstawy C++
+                            {{ $t("view.skills.languages.c++") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            podstawy PostgreSQL, SQLite
+                            {{ $t("view.skills.languages.postgresql_sqlite") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            podstawy HTML, CSS, SCSS, JS
+                            {{ $t("view.skills.languages.html_css_sass_js") }}
                         </li>
                     </ul>
-                    <div class="subheading mb-3">Biblioteki</div>
+                    <div class="subheading mb-3">{{ $t("view.skills.libraries.title") }}</div>
                     <ul class="fa-ul">
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Doctrine
+                            {{ $t("view.skills.libraries.doctrine") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Bootstrap
+                            {{ $t("view.skills.libraries.axios") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            JQuery
+                            {{ $t("view.skills.libraries.bootstrap") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Axios
+                            {{ $t("view.skills.libraries.jquery") }}
                         </li>
                     </ul>
-                    <div class="subheading mb-3">Inne</div>
+                    <div class="subheading mb-3">{{ $t("view.skills.other.title") }}</div>
                     <ul class="fa-ul">
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Elasticsearch
+                            {{ $t("view.skills.other.elasticsearch") }}
                         </li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div class="subheading mb-3">Frameworki</div>
+                    <div class="subheading mb-3">{{ $t("view.skills.frameworks.title") }}</div>
                     <ul class="fa-ul">
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Symfony 5
+                            {{ $t("view.skills.frameworks.symfony") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Zend Framework 3
+                            {{ $t("view.skills.frameworks.zend_framework") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            podstawy Spring
+                            {{ $t("view.skills.frameworks.spring") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            podstawy Hibernate
+                            {{ $t("view.skills.frameworks.hibernate") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            podstawy Vue.js
+                            {{ $t("view.skills.frameworks.vuejs") }}
                         </li>
                     </ul>
-                    <div class="subheading mb-3">Narzędzia</div>
+                    <div class="subheading mb-3">{{ $t("view.skills.tools.title") }}</div>
                     <ul class="fa-ul">
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Visual Sudio Code
+                            {{ $t("view.skills.tools.vscode") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Docker
+                            {{ $t("view.skills.tools.docker") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Git
+                            {{ $t("view.skills.tools.git") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Git Flow
+                            {{ $t("view.skills.tools.git_flow") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Composer
+                            {{ $t("view.skills.tools.composer") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Maven
+                            {{ $t("view.skills.tools.maven") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Webpack
+                            {{ $t("view.skills.tools.webpack") }}
                         </li>
                         <li>
                             <span class="fa-li"
                                 ><i class="fas fa-check"></i
                             ></span>
-                            Gulp
+                            {{ $t("view.skills.tools.gulp") }}
                         </li>
                     </ul>
                 </div>
