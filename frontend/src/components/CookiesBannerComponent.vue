@@ -2,11 +2,13 @@
     <div class="cookie-banner p-5" :class="cCookieBanner">
         <div class="row align-items-center">
             <div class="col-12 col-md-9 mb-4 mb-md-0 pr-md-5 text-right">
-                <div class="text">{{ cookies.text }}</div>
+                <div class="text">
+                    {{ $t("component.cookies_banner.text") }}
+                </div>
             </div>
             <div class="col-12 col-md-3 pr-md-5">
                 <button class="btn btn-primary w-auto" @click="acceptCookies">
-                    {{ cookies.button }}
+                    {{ $t("component.cookies_banner.button") }}
                 </button>
             </div>
         </div>
@@ -38,8 +40,6 @@ export default {
     data: function () {
         return {
             cookies: {
-                text: "Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie.",
-                button: "Zgoda",
                 visible: true,
                 name: "cookies-accepted",
             },

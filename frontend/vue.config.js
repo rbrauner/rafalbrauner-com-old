@@ -5,6 +5,7 @@ module.exports = {
             return args;
         });
     },
+
     pwa: {
         name: "Rafał Brauner - Backend Developer",
         themeColor: "#bd5d38",
@@ -64,6 +65,18 @@ module.exports = {
                     type: "image/png",
                 },
             ],
+        },
+    },
+
+    pluginOptions: {
+        i18n: {
+            locale: "en",
+            fallbackLocale: "en",
+            localeDir: "locales",
+            enableLegacy: false,
+            runtimeOnly: false,
+            compositionOnly: false,
+            fullInstall: true,
         },
     },
 };

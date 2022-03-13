@@ -1,0 +1,124 @@
+{
+    "component": {
+        "cookies_banner": {
+            "text": "Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie.",
+            "button": "Zgoda"
+        },
+        "nav": {
+            "toggle_navigation": "toggle navigation",
+            "profile": {
+                "name": "Rafał Brauner"
+            },
+            "menu": {
+                "about": "O mnie",
+                "experience": "Doświadczenie",
+                "education": "Edukacja",
+                "skills": "Umiejętności",
+                "interests": "Zainteresowania",
+                "awards_and_certificates": "Nagrody i nagrody"
+            }
+        }
+    },
+    "view": {
+        "about": {
+            "firstname": "Rafał",
+            "lastname": "Brauner",
+            "city": "Rybnik",
+            "country": "Polska",
+            "email": "rafalbrauner{'@'}gmail.com",
+            "lead": "Aktualnie uczę się języka Java i frameworka Spring, ale jestem otwarty na naukę innych technologii.",
+            "social": {
+                "url": {
+                    "github": "https://github.com/rbrauner",
+                    "gitlab": "https://gitlab.com/rbrauner",
+                    "facebook": "https://www.facebook.com/rbrauner98",
+                    "linkedin": "https://www.linkedin.com/in/rbrauner"
+                }
+            }
+        },
+        "experience": {
+            "title": "Doświadczenie",
+            "first": {
+                "title": "Backend Developer",
+                "company": "NoMonday",
+                "from": "Październik 2019",
+                "to": "Teraz"
+            },
+            "second": {
+                "title": "Junior Backend Developer",
+                "company": "NoMonday",
+                "from": "Czerwiec 2018",
+                "to": "Październik 2019"
+            }
+        },
+        "education": {
+            "title": "Edukacja",
+            "first": {
+                "school": "Politechnika Śląska",
+                "field_of_study": "Informatyka",
+                "from": "Październik 2018",
+                "to": "Teraz"
+            },
+            "second": {
+                "school": "Zespół Szkół Technicznych nr 1 im. Stanisława Staszica w Rybniku",
+                "field_of_study": "Technik Informatyk",
+                "from": "Wrzesień 2014",
+                "to": "Czerwiec 2018"
+            }
+        },
+        "skills": {
+            "title": "Umiejętności",
+            "languages": {
+                "title": "Języki",
+                "php": "PHP",
+                "sql_mysql": "SQL, MySQL",
+                "java": "Podstawy Java",
+                "python": "Podstawy Python",
+                "c++": "Podstawy C++",
+                "postgresql_sqlite": "Podstawy PostgreSQL, SQLite",
+                "html_css_sass_js": "Podstawy HTML, CSS, Sass, JS"
+            },
+            "libraries": {
+                "title": "Biblioteki",
+                "doctrine": "Doctrine",
+                "bootstrap": "Bootstrap",
+                "jquery": "JQuery",
+                "axios": "Axios"
+            },
+            "other": {
+                "title": "Inne",
+                "elasticsearch": "Elasticsearch"
+            },
+            "frameworks": {
+                "title": "Frameworki",
+                "symfony": "Symfony 5",
+                "zend_framework": "Zend Framework 3",
+                "spring": "Podstawy Spring",
+                "hibernate": "Podstawy Hibernate",
+                "vuejs": "Podstawy Vue.js"
+            },
+            "tools": {
+                "title": "Narzędzia",
+                "vscode": "Visual Studio Code",
+                "docker": "Docker",
+                "git": "Git",
+                "git_flow": "Git Flow",
+                "composer": "Composer",
+                "maven": "Maven",
+                "webpack": "Webpack",
+                "gulp": "Gulp"
+            }
+        },
+        "interests": {
+            "title": "Zainteresowania",
+            "first": "Moją pasją jest backend development, w którym czuję się jak ryba w wodzie. Projektowanie struktury kodu aplikacji, modelów bazy danych, a także utrzymywanie czystości kodu to rzeczy z którymi spotykam się na codzień. Interesuje mnie także tematyka z zakresu cyberbezpieczeństwa czy nowości technologicznych (nie związanych z programowaniem).",
+            "second": "Kiedy nie programuję lubię wyruszać na długie, pełne przygód wycieczki rowerowe, jak i przemierzać górskie szlaki, a zimą szusować po stokach. Po za tym z chęcią obejrzę dobry film/serial, albo przeczytam książkę opowiadającą ciekawą historię fantasy."
+        },
+        "awards_and_certificates": {
+            "title": "Nagrody i certyfikaty",
+            "first": "Szkolenie pt. \"Specjalność Programista: Podstawy Javy\" - Akademia Kodu (10.05.2020)",
+            "second": "Szkolenie pt. \"Specjalność Programista: Podstawy Pythona\" - Akademia Kodu (18.04.2020)",
+            "third": "Szkolenie pt. \"Aplikacje webowe\" - BlueSoft Rybnik (13.09.2017)"
+        }
+    }
+}

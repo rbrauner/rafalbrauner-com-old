@@ -1,0 +1,124 @@
+{
+    "component": {
+        "cookies_banner": {
+            "text": "This website uses cookies to provide services at the highest level. By continuing to use the site, you agree to their use.",
+            "button": "Agree"
+        },
+        "nav": {
+            "toggle_navigation": "Przełącz nawigację",
+            "profile": {
+                "name": "Rafał Brauner"
+            },
+            "menu": {
+                "about": "About me",
+                "experience": "Experience",
+                "education": "Education",
+                "skills": "Skills",
+                "interests": "Interests",
+                "awards_and_certificates": "Awards and certificates"
+            }
+        }
+    },
+    "view": {
+        "about": {
+            "firstname": "Rafał",
+            "lastname": "Brauner",
+            "city": "Rybnik",
+            "country": "Polska",
+            "email": "rafalbrauner{'@'}gmail.com",
+            "lead": "Now I learn Java, but I am open-minded about learning another technologies too.",
+            "social": {
+                "url": {
+                    "github": "https://github.com/rbrauner",
+                    "gitlab": "https://gitlab.com/rbrauner",
+                    "facebook": "https://www.facebook.com/rbrauner98",
+                    "linkedin": "https://www.linkedin.com/in/rbrauner"
+                }
+            }
+        },
+        "experience": {
+            "title": "Experience",
+            "first": {
+                "title": "Backend Developer",
+                "company": "NoMonday",
+                "from": "October 2019",
+                "to": "Now"
+            },
+            "second": {
+                "title": "Junior Backend Developer",
+                "company": "NoMonday",
+                "from": "June 2018",
+                "to": "October 2019"
+            }
+        },
+        "education": {
+            "title": "Education",
+            "first": {
+                "school": "Silesian University of Technology",
+                "field_of_study": "Informatics",
+                "from": "October 2018",
+                "to": "Now"
+            },
+            "second": {
+                "school": "Technical School Complex No. 1 named after Stanisław Staszic in Rybnik",
+                "field_of_study": "IT specialist",
+                "from": "September 2014",
+                "to": "June 2018"
+            }
+        },
+        "skills": {
+            "title": "Skills",
+            "languages": {
+                "title": "Languages",
+                "php": "PHP",
+                "sql_mysql": "SQL, MySQL",
+                "java": "Basics of Java",
+                "python": "Basics of Python",
+                "c++": "Basics of C++",
+                "postgresql_sqlite": "Basics of PostgreSQL, SQLite",
+                "html_css_sass_js": "Basics of HTML, CSS, Sass, JS"
+            },
+            "libraries": {
+                "title": "Libraries",
+                "doctrine": "Doctrine",
+                "bootstrap": "Bootstrap",
+                "jquery": "JQuery",
+                "axios": "Axios"
+            },
+            "other": {
+                "title": "Other",
+                "elasticsearch": "Elasticsearch"
+            },
+            "frameworks": {
+                "title": "Frameworks",
+                "symfony": "Symfony 5",
+                "zend_framework": "Zend Framework 3",
+                "spring": "Basics of Spring",
+                "hibernate": "Basics of Hibernate",
+                "vuejs": "Basics of Vue.js"
+            },
+            "tools": {
+                "title": "Tools",
+                "vscode": "Visual Studio Code",
+                "docker": "Docker",
+                "git": "Git",
+                "git_flow": "Git Flow",
+                "composer": "Composer",
+                "maven": "Maven",
+                "webpack": "Webpack",
+                "gulp": "Gulp"
+            }
+        },
+        "interests": {
+            "title": "Interests",
+            "first": "My passion is the backend Development, in which I feel like a fish in the water. Designing the structure of the application code, database models, as well as keeping code clean are things that I meet daily. I am also interested in topics in the field of cyber security or technological news (not related to programming).",
+            "second": "When I am not programming I like to ride for a long, adventurous bicycle trips, as well as cross the mountain trails, and in winter I love skiing. Moreover I will gladly watch a good movie / series, or read a book telling an interesting fantasy story."
+        },
+        "awards_and_certificates": {
+            "title": "Awards and certificates",
+            "first": "Training named \"Specjalność Programista: Podstawy Javy\" - Akademia Kodu (10.05.2020)",
+            "second": "Training named \"Specjalność Programista: Podstawy Pythona\" - Akademia Kodu (18.04.2020)",
+            "third": "Training named \"Aplikacje webowe\" - BlueSoft Rybnik (13.09.2017)"
+        }
+    }
+}

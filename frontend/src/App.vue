@@ -9,6 +9,7 @@
 <style lang="scss">
 // libs
 @import "bootstrap/scss/bootstrap";
+
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/solid";
@@ -28,9 +29,11 @@ body {
 .bg-primary {
     background-color: $appColor !important;
 }
+
 .text-primary {
     color: $appColor !important;
 }
+
 a {
     color: $appColor;
 }
